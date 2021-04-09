@@ -1,0 +1,71 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  color: #AF1917;
+}
+
+
+body {
+  background: white;
+  font-family: 'Raleway', sans-serif;
+}
+article {
+   display: flex;
+  flex-direction: column;
+    min-height: 80vh;
+    background: url("riviere.svg") top center no-repeat;
+    background-size: cover;
+}
+aside {
+  flex-basis: 320px;
+}
+ul {
+  list-style-type: none;
+}
+.etat li {
+  width: 9vw;
+  height: 14vw;
+}
+
+.bateau{
+  height: 20vh;
+  order: 1;
+}
+.choix {
+  background: white;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.choix li img {
+  max-height: 5vh;
+}
+
+.choix ul {
+  display: flex;
+  /*background-color: white;*/
+  padding-left: 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.etat {
+  display: flex;
+  justify-content: space-between;
+  /*border: 1px solid #000000;*/
+  flex-grow: 1;
+}
+.rive-gauche {
+  display: flex;
+}
+.rive-droite {
+  display: flex;
+  align-items: flex-end;
+  order: 2;
+}
+img {
+  width: 100%;
+}
