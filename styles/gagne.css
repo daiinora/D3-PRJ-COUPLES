@@ -10,8 +10,6 @@ header a{
   text-decoration: none;
 }
 
-
-
 body {
   background: white;
   font-family: 'Raleway', sans-serif;
@@ -57,43 +55,30 @@ a {
   order: 1;
   justify-content: center;
 }
-.choix {
-  background: white;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-}
-
-.choix li img {
-  max-height: 5vh;
-}
-
-.choix ul {
-  display: flex;
-  /*background-color: white;*/
-  padding-left: 0;
-  width: 100%;
-  justify-content: space-evenly;
-}
 .etat {
   display: flex;
   justify-content: space-between;
   /*border: 1px solid #000000;*/
   flex-grow: 1;
 }
-.rive-gauche {
-  display: flex;
-}
+
 .rive-droite {
   display: flex;
   align-items: flex-end;
   order: 2;
 }
-.rive-droite p{
-  color: rgb(10, 80, 150);
+.rive-gauche p{
+  color: #AF1917;
+  font-size: 3em;
+  padding-left: 6vw;
+  font-weight: bold;
 }
-.rive-droite a{
+.rive-gauche a{
   color: rgb(10, 80, 150);
+  font-size: 2em;
+  padding-left: 6vw;
+  font-weight: bold;
+  text-decoration: none;
 }
 img {
   width: 100%;
